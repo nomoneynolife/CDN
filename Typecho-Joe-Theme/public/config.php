@@ -135,26 +135,26 @@
 <!-- 轮播图 -->
 <script src="https://cdn.jsdelivr.net/npm/swiper@5.4.5/js/swiper.min.js"></script>
 <!-- 平滑滚动 -->
-<script src="https://cdn.jsdelivr.net/npm/typecho_joe_theme@4.3.5/library/SmoothScroll/SmoothScroll.min.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/nomoneynolife/cdn/Typecho-Joe-Theme/library/SmoothScroll/SmoothScroll.min.js"></script>
 <!-- 图片懒加载 -->
-<script src="https://cdn.jsdelivr.net/npm/typecho_joe_theme@4.3.5/library/joe.lazyload/joe.lazyload.min.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/nomoneynolife/cdn/Typecho-Joe-Theme/library/joe.lazyload/joe.lazyload.min.js"></script>
 <!-- 弹窗提示 -->
-<script src="https://cdn.jsdelivr.net/npm/typecho_joe_theme@4.3.5/library/joe.toast/joe.toast.min.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/nomoneynolife/cdn/Typecho-Joe-Theme/library/joe.toast/joe.toast.min.js"></script>
 <!-- 画图 -->
-<script src="https://cdn.jsdelivr.net/npm/typecho_joe_theme@4.3.5/library/sketchpad/sketchpad.min.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/nomoneynolife/cdn/Typecho-Joe-Theme/library/sketchpad/sketchpad.min.js"></script>
 <!-- 鱼群跳跃 -->
 <?php if ($this->options->JFishStatus !== "off") : ?>
-    <script src="https://cdn.jsdelivr.net/npm/typecho_joe_theme@4.3.5/assets/js/fish.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/nomoneynolife/cdn/Typecho-Joe-Theme/assets/js/fish.min.js"></script>
 <?php endif; ?>
 <!-- 弹幕 -->
 <?php if ($this->options->JBarragerStatus === 'on') : ?>
-    <script src="https://cdn.jsdelivr.net/npm/typecho_joe_theme@4.3.5/library/joe.barrager/joe.barrager.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/nomoneynolife/cdn/Typecho-Joe-Theme/library/joe.barrager/joe.barrager.min.js"></script>
 <?php endif; ?>
 <!-- 3dtag -->
-<script src="https://cdn.jsdelivr.net/npm/typecho_joe_theme@4.3.5/library/3DTag/3DTag.min.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/nomoneynolife/cdn/Typecho-Joe-Theme/library/3DTag/3DTag.min.js"></script>
 <!-- 目录树 -->
-<script src="https://cdn.jsdelivr.net/npm/typecho_joe_theme@4.3.5/assets/js/jfloor.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/typecho_joe_theme@4.3.5/assets/js/OwO.min.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/nomoneynolife/cdn/Typecho-Joe-Theme/assets/js/jfloor.min.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/nomoneynolife/cdn/Typecho-Joe-Theme/assets/js/OwO.min.js"></script>
 <script src="<?php $this->options->themeUrl('assets/js/joe.config.min.js?v=' . JoeVersion()); ?>"></script>
 
 

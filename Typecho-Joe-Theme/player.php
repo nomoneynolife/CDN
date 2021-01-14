@@ -5,7 +5,7 @@
     <meta charset="UTF-8" />
     <meta name="renderer" content="webkit" />
     <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, shrink-to-fit=no, viewport-fit=cover" />
-    <link rel="shortcut icon" href="https://cdn.jsdelivr.net/npm/typecho_joe_theme@4.3.5/assets/img/favicon.ico" />
+    <link rel="shortcut icon" href="https://cdn.jsdelivr.net/gh/nomoneynolife/cdn/Typecho-Joe-Theme/assets/img/favicon.ico" />
     <title>M3U8 - Player</title>
     <style>
         * {

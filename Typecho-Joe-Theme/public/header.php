@@ -316,7 +316,7 @@
         <h1 class="logo j-hover-music" title="<?php $this->options->title(); ?>">
             <?php $this->options->title(); ?>
             <a href="<?php $this->options->siteUrl(); ?>">
-                <img class="profile-color-logo" src="<?php echo $this->options->JLogo ? $this->options->JLogo : 'https://cdn.jsdelivr.net/npm/typecho_joe_theme@4.3.5/assets/img/logo.png' ?>" alt="logo">
+                <img class="profile-color-logo" src="<?php echo $this->options->JLogo ? $this->options->JLogo : 'https://cdn.jsdelivr.net/gh/nomoneynolife/cdn/Typecho-Joe-Theme/assets/img/logo.png' ?>" alt="logo">
                 <svg class="profile-color-modes" height="45" viewBox="0 0 106 60" fill="none" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" xmlns="http://www.w3.org/2000/svg">
                     <g class="profile-color-modes-illu-group profile-color-modes-illu-red">
                         <path d="M37.5 58.5V57.5C37.5 49.768 43.768 43.5 51.5 43.5V43.5C59.232 43.5 65.5 49.768 65.5 57.5V58.5"></path>

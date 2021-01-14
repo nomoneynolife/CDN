@@ -40,7 +40,7 @@ function GetLazyLoad()
     if (Helper::options()->JLazyLoad) {
         return Helper::options()->JLazyLoad;
     } else {
-        return "https://cdn.jsdelivr.net/npm/typecho_joe_theme@4.3.5/assets/img/lazyload.jpg";
+        return "https://cdn.jsdelivr.net/gh/nomoneynolife/cdn/Typecho-Joe-Theme/assets/img/lazyload.jpg";
     }
 }
 
@@ -593,7 +593,7 @@ class Widget_Post_hot extends Widget_Abstract_Contents
 /* 随机图片 */
 function GetRandomThumbnail($widget)
 {
-    $random = 'https://cdn.jsdelivr.net/npm/typecho_joe_theme@4.3.5/assets/img/random/' . rand(1, 25) . '.webp';
+    $random = 'https://cdn.jsdelivr.net/gh/nomoneynolife/cdn/Typecho-Joe-Theme/assets/img/random/' . rand(1, 25) . '.webp';
     if (Helper::options()->Jmos) {
         $moszu = explode("\r\n", Helper::options()->Jmos);
         $random = $moszu[array_rand($moszu, 1)] . "?jrandom=" . mt_rand(0, 1000000);
