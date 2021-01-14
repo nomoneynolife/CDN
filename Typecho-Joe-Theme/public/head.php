@@ -35,7 +35,7 @@
 </script>
 
 <!-- favicon图标 -->
-<link rel="shortcut icon" href="<?php echo $this->options->JFavicon ? $this->options->JFavicon : 'https://cdn.jsdelivr.net/npm/typecho_joe_theme@4.3.5/assets/img/favicon.ico'; ?>" />
+<link rel="shortcut icon" href="<?php echo $this->options->JFavicon ? $this->options->JFavicon : 'https://cdn.jsdelivr.net/gh/nomoneynolife/cdn/Typecho-Joe-Theme/assets/img/favicon.ico'; ?>" />
 
 <!-- Typecho自有函数 -->
 <?php if ($this->fields->keywords || $this->fields->desc) : ?>

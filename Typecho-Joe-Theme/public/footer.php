@@ -10,7 +10,7 @@
                 <?php if ($this->options->JBanQuan) : ?>
                     <span class="info"><?php $this->options->JBanQuan() ?></span>
                 <?php else : ?>
-                    <span class="info">2019 - 2020 © Reach - <a href="//ae.js.cn">Joe</a></span>
+                    <span class="info">Copyright © 2018- 2021 Axiba. All Rights Reserved.<!-- - <a href="//axiba.ml">axiba</a>--></span>
                 <?php endif; ?>
                 <?php if ($this->options->JCountTime === 'on') : ?>
                     <svg viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg">
@@ -23,7 +23,7 @@
                 <?php if ($this->options->JBanQuanLinks) : ?>
                     <?php $this->options->JBanQuanLinks() ?>
                 <?php else : ?>
-                    <a href="//ae.js.cn">JOE</a>
+                    <!--a href="//ae.js.cn">JOE</a-->
                     <a target="_blank" href="<?php $this->options->feedUrl(); ?>">RSS</a>
                     <a target="_blank" href="<?php echo $this->options->siteUrl . "index.php/sitemap" ?>">MAP</a>
                 <?php endif; ?>
