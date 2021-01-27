@@ -1,0 +1,6 @@
+此乞讨源码为typecho插件
+将TleDaShang整个打包上传到插件目录并启用，不能修改TleDaShang目录名！
+
+
+
+作者gitHub搜TleDaShang
